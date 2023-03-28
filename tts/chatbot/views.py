@@ -16,7 +16,7 @@ def index(request):
     # return to template
     context = {'botname': 'Mel'}
     # views.py
-openai.api_key = "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" # Insert your OpenAI Secret Key here
+openai.api_key = "OPENAI-API-KEY-HERE" # Insert your OpenAI Secret Key here
 openai.Model.list()
 
 r = sr.Recognizer()
